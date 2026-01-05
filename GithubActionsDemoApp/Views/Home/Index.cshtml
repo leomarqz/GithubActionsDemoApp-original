@@ -4,9 +4,20 @@
 
 <div class="text-center">
     <h1 class="display-4">Hola bienvenidos!!</h1>
-    <p>Esta es una aplicación de demostración para Github Actions.</p>
-    <p>Esta aplicación se despliega automáticamente en Azure con Github Actions.</p>
-    <p>¡Disfruta explorando!</p>
-    <cite>Author: ::crack::night</cite>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <section>
+        <h1 class="display-4 fw-bold">Bitácora de Despliegue - Azure ☁️</h1>
+        <hr />
+
+        <div class="py-4">
+            <h4 class="text-primary">V2: Deploy Automático (Continuous Deployment)</h4>
+            <p class="lead">Configurado directamente desde el <strong>Deployment Center</strong> de Azure App Service.</p>
+            <p>Azure genera el flujo de trabajo automáticamente para traer el código de GitHub ante cualquier cambio.</p>
+        </div>
+
+        <div class="py-4 text-muted">
+            <h4>V1: Deploy Manual (GitHub Actions)</h4>
+            <p>Despliegue realizado mediante la escritura manual de un archivo <code>.yml</code> en GitHub Actions.</p>
+            <p>Definición paso a paso del flujo de integración y entrega continua (CI/CD).</p>
+        </div>
+    </section>
 </div>
